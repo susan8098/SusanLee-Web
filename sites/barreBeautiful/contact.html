@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Barre Beautiful | Say Hello</title>
+	<link rel="stylesheet" href="css/stylesheet.css">
+	<link href='https://fonts.googleapis.com/css?family=Libre+Baskerville:400italic,400' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css">
+	<link href='https://fonts.googleapis.com/css?family=Lato:300,100' rel='stylesheet' type='text/css'>
+</head>
+
+<body class="contact">
+
+	<div class="menuToggleH">
+		<div class="menuToggle"> 
+			<img class="logoR" src="images/logo.png" alt=""> 
+			<p>☰ MENU</p>
+		</div>
+	</div>
+	
+	<header>
+		<ul class="nav">
+			<li><a href="studio.html">studio</a></li>
+			<li><a href="classes.html">classes</a></li>
+			<li><a href="rates.html">rates</a></li>
+			<li><a href="index.html"><img class="logo"src="images/logo.png" alt=""></a></li>
+			<li><a href="schedule.html">schedule</a></li>
+			<li><a href="press.html">press</a></li>
+			<li><a href="contact.html">contact</a></li>
+		</ul>
+	</header>
+
+	<div class="masterWrapper">
+		<h1>Say <br> Hello!</h1>
+		<div class="contentWrapper">
+			<div class="leftContact">
+				<form>
+					<li><input type="text" placeholder="Your Name"></li>
+					<li><input type="email" placeholder="Your Email"></li>
+					<li><textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea></li>
+					<li><input type="submit" class="submitButton" value="SEND"></li>
+				</form>
+			</div>
+			<div class="rightContact">
+				<p class="address">2156 Yonge Street <br>
+				Toronto, ON M4S 2AB </p>
+				<p>
+					<i class="fa fa-phone"></i>647.748.2156 <br>
+					<i class="fa fa-envelope"></i>info@barrebeautiful.com
+				</p>
+				<div class="socialLinks">
+					<a href="https://www.facebook.com/BarreBeautiful/"><i class="fa fa-facebook"></i></a>
+					<a href="https://twitter.com/BarreBeautiful"><i class="fa fa-twitter"></i></a>
+					<a href="https://www.instagram.com/barrebeautiful/"><i class="fa fa-instagram"></i></a>
+					<a href="https://www.youtube.com/channel/UCdd0z86RUyFWSJHQY3MeC1g"><i class="fa fa-youtube-play"></i></a>
+				</div>
+			</div>
+		</div>
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2884.3219897016093!2d-79.40010248509304!3d43.70385715717262!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b333c0d791e4f%3A0x7305321ac1564880!2sBarre+Beautiful+Toronto!5e0!3m2!1sen!2sca!4v1449118294736" width="100%" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>	
+	</div>
+	
+	<footer>
+		<div class="footerContainer">
+			<form action="" class="subscribe">
+				<li>Get in the Know!</li>
+				<li><input type="email" placeholder="Enter Your Email">
+				<input type="submit" value="Subscribe!" class="submitButton"></li>
+			</form>
+		</div>
+	</footer>
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+	<script>
+		$(function(){
+		
+			$('.menuToggle').on('click',function(){
+				$('.nav').slideToggle();
+			})
+		});
+	</script>
+	
+	
+</body>
+</html>
